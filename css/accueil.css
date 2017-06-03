@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+.body{
+	background-color: #E3E3E3;
+}
+@font-face {
+	font-family: "Infinite_Stroke";
+	src: url('../font/../font/Infinite_Stroke.otf');
+}
+/**********Accueil********************/
+.divTrio{
+	height: 282px;
+	width: 250px;
+	background-color: white;
+	margin: 0px 3% 3% 0px;
+	box-shadow: 6px 7px 23px 0px rgba(0,0,0,0.25);
+	border: solid #EB900C;
+	display: inline-block;
+}
+.imgTrio{
+	height: 250px;
+}
+.trio{
+	width: 90%;
+	margin: 20px 5% 30px 10%;
+	padding: 0px auto 3px auto;
+}
+.h3Categorie{
+	width: 50%;
+	margin-left: 10%;
+	background-color: black;
+	color: #EB900C;
+	padding: 6px 3%;
+	box-shadow: 6px 7px 23px 0px rgba(0,0,0,0.25);
+	font-weight: 800;
+	font-size: 2em;
+	border: solid #EB900C;
+	border-radius: 2px;
+}
+.h2Categorie{
+	width: 50%;
+	background-color: black;
+	color: #EB900C;
+	padding: 6px 3%;
+	box-shadow: 6px 7px 23px 0px rgba(0,0,0,0.25);
+	font-weight: 800;
+	font-size: 3em;
+	border: solid #EB900C;
+	border-radius: 2px;
+}
+.hrO{
+	width: 45%;
+	margin-left: 12.5%;
+	margin-top: -5px;
+	border-color: #EB900C;
+	border-width: 4px;
+	border-radius: 1px;
+
+}
+.hSection{
+	margin: 0px 3%;
+}
+#carrousel{
+	margin-top: -7px;
+	width: 100%;
+}
+.flecheC{
+	position: absolute;
+	margin-top: 20%;
+}
+.flecheC:hover{
+	color: #EB900C;
+}
+#flecheCL{
+	position: absolute;
+	margin-left: 2%;
+}
+#flecheCR{
+	position: absolute;
+	margin: 20% auto auto 92%;
+}

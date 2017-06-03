@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	
+	<link href="../css/footer.css" rel="stylesheet" type="text/css" />
+	<link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+	
+	<title>Footer</title>
+
+</head>
+
+<body >
+
+	
+	<div id="bodyFooter">
+		<hr>
+		<div class="abus">
+			<p id="alc">L'abus d'alcool est dangereux pour la santé. A consommer avec modération. Vente interdite aux mineurs.</p>
+		</div>
+		<div class="footer col-md-3 footerVR">
+			<label class="titreFooter">Contact :</label>
+			<div id="contact">
+			
+				<form class="col-md-12" action="../php/mail_contact.php" target="_blank" method="post">
+					<div class="col-md-9">
+						Votre nom :<br />
+						<input type="text" name="name" placeholder="Nom"  pattern="[A-Za-z]*" required data-validation-required-message="Saisissez votre message."><br />
+						<label for adresse>Votre adresse :</label><br>
+						<input name="email" type="text"  placeholder="exemple@mail.fr" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required data-validation-required-message="Saisissez votre adresse Email." > <br />
+						Votre message :<br />
+						<textarea name="message" cols="22" rows="6" id="message" placeholder="Votre message..." required data-validation-required-message="Saisissez votre message."></textarea> 
+					</div>
+					<div class="col-md-2 sendContact">			
+   						 <button type="submit" value="envoyer">Envoyer</button>	
+					</div>
+				</form>
+				
+			</div>
+		</div>
+		<div>	
+			<div class="footer footerV col-md-5">
+				<label class="titreFooter">Partenaire :</label><br>
+				<img src="../img/Sponsor/sponsor-Abso" class="partenaire" />
+				<img src="../img/Sponsor/sponsor-jack.png" class="partenaire" />
+				<img src="../img/Sponsor/sponsor-Cubanisto.png" class="partenaire" />
+				<img src="../img/Sponsor/sponsor-Clement.png" class="partenaire" />
+			</div>
+		</div>
+		<div class="footer footerVL col-md-4">
+			<label class="titreFooter">Mentions Légales :</label>
+			<p>Directeur de la publication : Michael Laconte,<br> Directeur de Transport My Mind Directeur de la rédaction : Estelle Roué,<br> Directrice de E.R.A.S Transport My Mind 195 Quai Eric Tabarly 29200 BREST Cedex 2 France<br> Téléphone : +33(0)2 98 30 20 10<br> Hébergeur : E.R.A.S 41 rue de la Paix du Corbeau 75000 PARIS, cedex 15 France<br> Téléphone : +33(0)1 45 46 45 46<br> Le site est déclaré à la CNIL, et porte les numéros d’autorisations : 2012997.<br></p>
+		</div>
+	</div>
+</body>
+</html>

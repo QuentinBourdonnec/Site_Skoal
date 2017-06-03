@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<link href="css/index.css" rel="stylesheet"/>
+		<link rel="shortcut icon" href="img/logo.png">
+		<title>Verification Majorite</title>
+		<script src="js/global.js"></script>
+	</head>
+	<body id="body">
+		<div id="formAge">
+			<h2 id="ph">Bienvenue dans l'univers de SKOAL.</h2>
+			<label for="date">Annee De Naissance :</label>
+			<input name="date" type="text" id="date" placeholder="YYYY" size="4" maxlength="4">
+			<input type="button" class="button" value="Acceder au Site" onClick="if(CheckAge()){window.open('php/page_principale.php','_parent');} else{window.open('https://www.youtube.com/watch?v=2YXVbyXot9Y','_parent'); }">
+			<p id="inf">
+				Pour visiter notre site, vous devez avoir l'&acirc;ge l&eacute;gal pour boire.
+			</p>
+		</div>
+	</body>
+</html>

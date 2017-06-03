@@ -1,0 +1,44 @@
+/* CSS Document */
+.body{
+	background-color: #D7DBDA;
+}
+@font-face {
+	font-family: "Infinite_Stroke";
+	src: url('../font/../font/Infinite_Stroke.otf');
+}
+/*-------Catalogue--------*/
+
+.divTrio{
+	height: 282px;
+	width: 24%;
+
+	margin: 0px 3% 3% 0px;
+	box-shadow: 6px 7px 23px 0px rgba(0,0,0,0.25);
+	border: solid #EB900C;
+	display: inline-block;
+}
+.imgTrio{
+	height: 250px;
+}
+.trio{
+	width: 80%;
+	margin: 20px 10% 30px;
+	padding: 0px auto 3px auto;
+}
+.formFiltre{
+	width: 73%;
+	margin: 3% auto 5% 10%;
+	background-color: black;
+	color: #EB900C;
+	padding: 6px 2% 6px 2%;
+	box-shadow: 6px 7px 23px 0px rgba(0,0,0,0.25);
+	font-weight: 800;
+	font-size: 1.2em;
+	border: solid #EB900C;
+	border-radius: 2px;
+}
+.minmax{
+	color: #676767;
+	margin: 2px;
+}
+

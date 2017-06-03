@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color: #D7DBDA;
+}
+@font-face {
+	font-family: "Infinite_Stroke";
+	src: url('../font/../font/Infinite_Stroke.otf');
+}
+/******************Footer*************************/
+.titreFooter{
+	text-decoration: underline;
+	font-size: 1.4em;
+	margin-bottom: 30px
+}
+.partenaire{
+	width:40%;
+	margin: 4%;
+}
+#contact{
+	margin-left: 0px;
+}
+.inputContact{
+	max-width: 100%;
+}
+.footerV{
+	border-color: #EB900C;
+	
+	margin-top: 25px
+	
+}
+.footerVL{
+	border-left: solid;
+	border-color: #EB900C;
+	margin-top: 25px;
+	height: 320px
+}
+.footerVR{
+	border-right: solid;
+	border-color: #EB900C;
+	margin-top: 25px;
+	height: 320px
+}
+#bodyFooter{
+	padding: 0 3% 0
+}
+.sendContact{
+	margin-top: 40%;
+}
+
+.abus{
+	height: 30px;
+	background-color:black;
+	text-align: center;
+	margin: 0px -3%;
+	width: 106%;
+	margin-bottom:10px;
+}#alc
+{
+	font-family: Verdana, sans-serif;
+	font-size: 20px;
+	font-style:italic;
+	color:white;
+}	

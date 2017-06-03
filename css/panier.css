@@ -1,0 +1,66 @@
+/* CSS Document */
+.imgVignette{
+	height: 80px;
+}
+.titreTable{
+	color: #EB900C;
+	background-color: black;
+	font-size: 2em;
+	padding: 4px 2px 3px 25px;
+	width: 200px;
+	border-style: none none solid none;
+}
+#recap{
+	padding: 4px 2px 3px 10px;
+}
+.celluleTable{
+	font-size: 1.2em;
+	padding: 4px 2px 3px 15px;
+}
+.tablePanier{
+	margin: 100px 10% 0px ;
+	border: solid #FAA62D;
+	border-radius: 5px;
+
+}
+.tableRecap{
+	margin: 10px auto 10% 10%;
+	border: solid #FAA62D;
+	border-radius: 5px;
+}
+.trashTable{
+	width: 80px;
+}
+.fa-trash-o:hover{
+	color: red;
+	cursor: pointer;
+}
+#fa_panier2{
+	color: #EB900C;
+}
+#fa_panier2:hover{
+	color: #FAA62D;
+	cursor: pointer;
+}
+.fa_panier{
+	color: black;
+}
+#erreur{
+	padding-left: 10%;
+}
+
+body
+{
+	background-image: url("../img/vide.jpg");
+	background-repeat:no-repeat;
+	background-size:100%;
+}
+
+#dep
+{
+	margin-top:10%;
+	margin-bottom:31%;
+	margin-left:6%;
+	
+	
+}

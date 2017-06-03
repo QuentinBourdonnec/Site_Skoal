@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+.body{
+	background-color: #E3E3E3;
+}
+@font-face {
+	font-family: "Roboto-Thin";
+	src: url('../font/Roboto-Thin.ttf');
+}
+/************Page d'entrée***************/
+#body{
+	background-image: url("../img/fond.jpg");
+	font-family:"Roboto-Thin";
+	background-repeat:no-repeat;
+	 background-size:105%;
+	
+}
+#formAge{
+	color: #EB900C;
+	margin: 15% auto 0 auto;
+	width: 600px;
+	font-size: 2em;
+	font-weight:800;
+	background-color: black;
+	padding: 10px 10px 0px;
+	text-align:center;
+}
+#date{
+	height: 40px;
+	width: 120px;
+	font-size: 0.9em;
+	text-align: center;
+	color: #EB900C;
+	background-color: black;
+	border: solid 3px #EB900C;
+	border-radius: 2px;
+	font-family:"Roboto-Thin";
+}
+.button {
+	margin: 10% 4% 4% 2%;
+	border: solid #EB900C;
+	border-radius: 2px;
+	padding:3px;
+	background-color:black;
+	color: #EB900C;
+	font-size:2.2em;
+	font-weight:800;
+	cursor: pointer;
+	font-family:"Roboto-Thin";
+}
+.button:hover{
+	color: #CB7C0A;
+	border-color: #CB7C0A;
+	cursor: pointer;
+}
+
+#inf{
+	font-size:0.5em;
+	text-align:left;
+}
+
+#ph
+{
+	Font-Weight: Bold;
+	font-size: 1.2em;
+	color:#E78205;
+}

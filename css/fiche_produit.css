@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+p{
+	text-align: justify;
+}
+#fiche{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#fiche_des{
+	padding: auto;
+}
+#fiche_img{
+	width: 35%;
+}
+#quantite{
+	padding: 5px;
+}
+#prix{
+	padding-left: 20px;
+}
+#fa_panier2{
+	color: #EB900C;
+}
+#fa_panier2:hover{
+	color: #FAA62D;
+	cursor: pointer;
+}
+.fa_panier{
+	color: black;
+	margin-left: 40px;
+}
+
+

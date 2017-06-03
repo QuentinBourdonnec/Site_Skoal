@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+.body{
+	background-color: #E3E3E3;
+}
+@font-face {
+	font-family: "Infinite_Stroke";
+	src: url('../font/../font/Infinite_Stroke.otf');
+}
+/***************************Header**************************/
+#MenuDiv{
+	background: black;
+	color: #EB900C;
+	height: 4.7em;
+	margin: 0px;
+}
+#nomSite{
+	margin-top: 3px;
+	font-family: "Infinite_Stroke";
+	font-size: 3.2em;
+}
+.buttonMenu{
+	margin: 0.4em 10px auto 10px;
+	font-size: 30px;
+	font-family: "Infinite_Stroke";
+}
+.buttonClient{
+	margin: 0.2em -40px auto -2px;
+	font-size: 1.7em;
+	font-family: "Infinite_Stroke";
+	width: 4%;
+}
+#vide{
+	margin-right: 0px;
+}
+.labelButton:hover{
+	padding-top: 2px;
+	margin-bottom: -2px;
+	color: #FAA62D;
+	cursor: pointer;
+}
+#labelSite:hover{
+	color: #FAA62D;
+	cursor: pointer;
+}
+
+
+
+.labelButton{
+	margin-top:5px;
+}
+
